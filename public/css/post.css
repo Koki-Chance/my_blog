@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #66FF00;
+}
+
+.title {
+  font-size: 50px;
+  color: #668ad8;
+  margin: 10px auto 10px auto;
+}
+
+.message {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.root{
+  color: #668ad8;
+  border: 1px solid #668ad8;
+  border-bottom: 1px solid #668ad8;
+  padding: 3px;
+}
+
+.root:hover {
+  color: red;
+  border: 1px solid red;
+}

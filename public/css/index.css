@@ -1,0 +1,60 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #66FF00;
+}
+
+.title {
+  font-size: 50px;
+  color: #668ad8;
+  margin: 10px auto 20px auto;
+}
+
+/* 新規投稿ページへのボタン */
+.post {
+  margin-bottom: 20px;
+  color: #668ad8;
+  border: 1px solid #668ad8;
+  padding: 3px;
+}
+
+.post:hover {
+  color: red;
+  border: 1px solid red;
+}
+
+.post-container {
+  margin-top: 10px;
+  padding: 3px;
+  height: 70vh;
+  scroll-behavior: smooth;
+  overflow-y: scroll
+  
+}
+
+.list {
+  margin-bottom: 15px;
+  width: 400px;
+  border: 2px solid #668ad8;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.list-name {
+  margin-bottom: 5px;
+  font-weight: bold;
+  border-bottom: 1px solid #668ad8;
+}
+
+.date {
+  display: inline;
+  margin-left: 10px;
+  font-weight: 100;
+}
+
+.list-content {
+  
+}
+

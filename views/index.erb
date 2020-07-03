@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8' />
+    <title>My blog</title>
+    <link href='/css/reset.css' rel='stylesheet' />
+    <link href='/css/index.css' rel='stylesheet' />
+  </head>
+  <body class='container'>
+    <div class='title'>
+      My blog
+    </div>
+    <div class='post'>
+      <a href='/create'>Create a new post!</a>
+    </div>
+    
+    <div class="post-container">
+      <% @posts.each do |post| %>
+      <div class='list'>
+        <div class='list-name'>
+          <%= post.name %>
+          <div class='date'>
+            <%= post.created_at.in_time_zone('Tokyo').strftime("%Y-%m-%d %H:%M:%S") %>
+          </div>
+        </div>
+        <div class='list-content'>
+          <%= post.content %>
+        </div>
+      </div>
+      <% end %>
+    </div>
+  </body>
+</html>

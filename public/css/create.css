@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #66FF00;
+}
+
+.title {
+  font-size: 50px;
+  color: #668ad8;
+  margin: 10px auto 5px auto;
+}
+
+.sub-title {
+  color: #668ad8;
+}
+
+a {
+  text-decoration: none;
+}
+
+.form {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.namearea {
+  width: 300px;
+  height: 35px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-color: #668ad8;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.textarea {
+  width: 300px;
+  height: 100px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-color: #668ad8;
+  background-color: white;
+  border-radius: 5px;
+  /* border-style: solid; */
+}
+
+.textarea::placeholder {
+  width : 150px;
+}
+
+/* ボタンのデザイン */
+.btn {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  text-align: center;
+}
+.btn:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+/* ボタンのデザイン（終） */

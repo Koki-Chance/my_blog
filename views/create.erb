@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8' />
+    <title>Post</title>
+    <link href='/css/reset.css' rel='stylesheet' />
+    <link href='/css/create.css' rel='stylesheet' />
+  </head>
+  <body class='container'>
+    <div class='title'>
+      <a href='/'>My blog</a>
+    </div>
+    <div class='sub-title'>
+      - create a new post -
+    </div>
+
+    <form action='post' method='post' autofocus class='form'>
+      <input type='text' name='name' placeholder='Write your name here' class='namearea'>
+      <textarea name="content" rows="4" cols="40" wrap="hard" placeholder='Write your post here' class='textarea'></textarea>
+      <button type='submit' class='btn btn-primary'>POST</button>
+    </form>
+
+  </body>
+</html>
